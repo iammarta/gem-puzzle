@@ -1,0 +1,36 @@
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.top-panel {
+    display: flex;
+    justify-content: space-evenly;
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+.panel-button{
+    background-color: black;
+    color: white;
+    width: 300px;
+    min-height: 35px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-right: 5px;
+    cursor: pointer;
+    outline: none;
+}
+
+.panel-button:hover{
+  opacity: 0.3;
+}
+.time-panel {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.start{
+    pointer-events: none;
+}
